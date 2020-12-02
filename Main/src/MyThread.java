@@ -1,9 +1,11 @@
+import com.dropbox.core.v2.DbxClientV2;
+
 public class MyThread extends Thread {
 
     private int threadNumber;
 
-    public MyThread(int number) {
-        threadNumber = number;
+    public MyThread(DbxClientV2 client) {
+
     }
 
     @Override
